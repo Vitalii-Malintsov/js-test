@@ -42,12 +42,12 @@ console.log('Module 1.2');
 //   console.log(`${max} % ${i} = `, max % i);
 // }
 
-// const number = 10;
+const number = 10;
 
-// for (let i = 0; i < number; i += 1) {
-//   if (i % 2 === 0) {
-//     continue;
-//   }
+for (let i = 0; i < number; i += 1) {
+  if (i % 2 === 0) {
+    continue;
+  }
 
-//   console.log("Нечетное i: ", i); // 1, 3, 5, 7, 9
-// }
+  console.log("Нечетное i: ", i); // 1, 3, 5, 7, 9
+}
